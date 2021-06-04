@@ -9,8 +9,28 @@ Districts or block groups are the smallest geographical units for which the US C
 
 # Analysis Tasks performed:
 
-1. Built a model of housing prices to predict median house values in California using the provided dataset.
+1.Built a model of housing prices to predict median house values in California using the provided dataset.
 
-2. Trained the model to learn from the data to predict the median housing price in any district, given all the other metrics.
+2.Trained the model to learn from the data to predict the median housing price in any district, given all the other metrics.
 
-3. Predicted housing prices based on median_income and plot the regression chart for it.
+3.Predicted housing prices based on median_income and plot the regression chart for it.
+
+# Requirements:
+We need jupyter notebook environment for executing python program.
+
+# Packages and libraries required:
+
+
+•Pandas
+
+•Numpy
+
+•Matplotlib
+
+•Scikit learn
+
+•Seaborn
+
+# Reading the data:
+I imported the raw data which is in csv format from local database using pandas library.
+
