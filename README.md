@@ -44,7 +44,7 @@ To know the data type of columns , we use dtypes function to get the columns wit
 I have to standardize the data because the features of data have different range of values. I standardized the data using StandardScaler from Sklearn.
 
 # Splitting of data:
-I have split  80% of the total data into training dataset and 20% of the total data into test dataset.
+I have split  80% of the total data into training dataset(x_train,x_test) and 20% of the total data into test dataset(y_train,y_test).
 
 # Model Training and Model Testing: 
 The training data is fed to LinearRegression by using fit() function, after training the model i used test data to predict the values of housing price using predict() function.
