@@ -56,5 +56,17 @@ For evaluating the model i have calculated Mean_Squared_Error and R-Squared valu
 
 •R2=0.65
 
+# Linear Regression with one independent variable :
+•Extracted just the median_income column from the independent variables (from X_train and X_test).
+
+
+•Perform Linear Regression to predict housing values based on median_income.
+
+
+•Predict output for test dataset using the fitted model.
+
+
+•Plot the fitted model for training data as well as for test data to check if the fitted model satisfies the test data.
+
 
 
