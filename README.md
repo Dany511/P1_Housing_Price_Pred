@@ -34,3 +34,27 @@ We need jupyter notebook environment for executing python program.
 # Reading the data:
 I imported the raw data which is in csv format from local database using pandas library.
 
+# Handling the missing values: 
+Used info() function to find the missing values.And all the missing values are taken care by replacing the missing values with the mean of their respective column using SimpleImputer() function.
+
+# Encoding of categorical values: 
+To know the data type of columns , we use dtypes function to get the columns with object data type and encoded them using get_dummies function from Pandas library.
+
+# Standardisation of data: 
+I have to standardize the data because the features of data have different range of values. I standardized the data using StandardScaler from Sklearn.
+
+# Splitting of data:
+I have split  80% of the total data into training dataset and 20% of the total data into test dataset.
+
+# Model Training and Model Testing: 
+The training data is fed to LinearRegression by using fit() function, after training the model i used test data to predict the values of housing price using predict() function.
+
+# Model Evaluation:
+For evaluating the model i have calculated Mean_Squared_Error and R-Squared value.
+
+•MSE=69710.078
+
+•R2=0.65
+
+
+
