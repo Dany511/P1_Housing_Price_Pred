@@ -78,22 +78,22 @@ Used sns.heatmap() function from seaborn library to visualize the Correlation he
 ![](https://github.com/Dany511/Dany5_portfolio/blob/main/images%202/Corr_1.PNG)
 
 # Handling the missing values: 
-Used info() function to find the missing values.And all the missing values are taken care by replacing the missing values with the mean of their respective column using SimpleImputer() function.
+Used info() function to find the missing values.And all the missing values are taken care by replacing the missing values with the mean of their respective column using SimpleImputer() function.SimpleImputer is imported from scikit-learn library.
 
 # Encoding of categorical values: 
 To know the data type of columns , we use dtypes function to get the columns with object data type and encoded them using get_dummies function from Pandas library.
 
 # Standardisation of data: 
-I have to standardize the data because the features of data have different range of values. I standardized the data using StandardScaler from Sklearn.
+I have to standardize the data because the features of data have different range of values. I standardized the data using StandardScaler from Sklearn library.
 
 # Splitting of data:
-I have split  80% of the total data into training dataset(x_train,x_test) and 20% of the total data into test dataset(y_train,y_test).
+I have split  80% of the total data into training dataset(x_train,x_test) and 20% of the total data into test dataset(y_train,y_test).Using train_test_split() function from sklearn library.
 
 # Model Training and Model Testing: 
-The training data is fed to LinearRegression by using fit() function, after training the model i used test data to predict the values of housing price using predict() function.
+LinearRegression is imported from sklearn.linear_model module.The training data is fed to LinearRegression by using fit() function, after training the model i used test data to predict the values of housing price using predict() function.
 
 # Model Evaluation:
-For evaluating the model i have calculated Mean_Squared_Error and R-Squared value.
+From sklearn.metrics i imported mean_squared_error function to calculate Mean_Squared_Error.R-Squared value is calculated using score() function.
 
 •MSE=69710.078
 
