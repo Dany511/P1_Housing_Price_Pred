@@ -111,6 +111,19 @@ For evaluating the model i have calculated Mean_Squared_Error and R-Squared valu
 
 •Made a Plot of fitted model for training data as well as for test data to check if the fitted model satisfies the test data.
 
+
+# Plot of Actual vs Predicted values:
+                                   Actual vs Predicted (Training Data)
+                                         
+                                         
+   ![](https://github.com/Dany511/Dany5_portfolio/blob/main/images%202/actual%20vs%20pred%20train.PNG)
+   
+   
+   
+                                   Actual vs Predicted (Test Data)
+                                   
+   ![](https://github.com/Dany511/Dany5_portfolio/blob/main/images%202/actual%20vs%20pred%20test.PNG)                                
+
 # Conclusion:
 In the above plot we can see that Actual vs Predicted values of both Training data and Test data follows a linear pattern.From this we can conclude that the fitted model satifies the test data.
 
