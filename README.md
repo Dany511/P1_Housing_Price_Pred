@@ -8,7 +8,6 @@ Districts or block groups are the smallest geographical units for which the US C
 # Domain: Finance and Housing.
 
 # Analysis Tasks performed:
-
 1.Built a model of housing prices to predict median house values in California using the provided dataset.
 
 2.Trained the model to learn from the data to predict the median housing price in any district, given all the other metrics.
@@ -19,8 +18,6 @@ Districts or block groups are the smallest geographical units for which the US C
 We need jupyter notebook environment for executing python program.
 
 # Packages and libraries required:
-
-
 •Pandas
 
 •Numpy
@@ -33,6 +30,40 @@ We need jupyter notebook environment for executing python program.
 
 # Reading the data:
 I imported the raw data which is in csv format from local database using pandas library.
+
+# Dataset Description:
+
+
+           Field                                Description
+         
+longitude	(signed numeric - float) : Longitude value for the block in California, USA
+
+
+latitude	(numeric - float ) : Latitude value for the block in California, USA
+
+
+housing_median_age	(numeric - int ) : Median age of the house in the block
+
+
+total_rooms	(numeric - int ) : Count of the total number of rooms (excluding bedrooms) in all houses in the block
+
+
+total_bedrooms	(numeric - float ) : Count of the total number of bedrooms in all houses in the block
+
+
+population	(numeric - int ) : Count of the total number of population in the block
+
+
+households	(numeric - int ) : Count of the total number of households in the block
+
+
+median_income	(numeric - float ) : Median of the total household income of all the houses in the block
+
+
+ocean_proximity	(numeric - categorical ) : Type of the landscape of the block [ Unique Values : 'NEAR BAY', '<1H OCEAN', 'INLAND', 'NEAR OCEAN', 'ISLAND'  ]
+
+
+median_house_value	(numeric - int ) : Median of the household prices of all the houses in the block
 
 # Data Visualization:
 Distribution of the independent variables using hist() function from matplotlib library.
