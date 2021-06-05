@@ -71,6 +71,7 @@ Distribution of the independent variables using hist() function from matplotlib 
 
 # Correlation Heat map:
 Used sns.heatmap() function from seaborn library to visualize the Correlation heat map for the total dataset.
+![](https://github.com/Dany511/Dany5_portfolio/blob/main/images%202/corr.PNG)
 
 # Handling the missing values: 
 Used info() function to find the missing values.And all the missing values are taken care by replacing the missing values with the mean of their respective column using SimpleImputer() function.
