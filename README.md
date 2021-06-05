@@ -34,6 +34,10 @@ We need jupyter notebook environment for executing python program.
 # Reading the data:
 I imported the raw data which is in csv format from local database using pandas library.
 
+# Data Visualization:
+Distribution of the independent variables using hist() function from matplotlib library.
+![](https://github.com/Dany511/Dany5_portfolio/blob/main/images%202/hist1.PNG) ![](https://github.com/Dany511/Dany5_portfolio/blob/main/images%202/hist2.PNG)
+
 # Handling the missing values: 
 Used info() function to find the missing values.And all the missing values are taken care by replacing the missing values with the mean of their respective column using SimpleImputer() function.
 
